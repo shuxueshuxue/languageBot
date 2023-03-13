@@ -1,3 +1,6 @@
+## Stack
+Whisper, EdgeTTS, GPT3.5-turbo
+
 ## General
 - [ ] stream
 - [ ] pyQt GUI
