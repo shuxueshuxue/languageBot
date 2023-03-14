@@ -8,4 +8,4 @@ Whisper, EdgeTTS, GPT3.5-turbo
 ## Memory
 - [ ] soft buffer
 - [ ] fact & question distinction (for better search and lower cost on prompt)
-- [ ] semantic search
+- [-] semantic search
