@@ -4,7 +4,7 @@ from pydub import AudioSegment
 import file_utils
 
 r = sr.Recognizer()
-openai.api_key = file_utils.load_dict_from_json("settings.json")["openai_key"]
+openai.api_key = file_utils.load_from_json("settings.json")["openai_key"]
 
 def transcribe(file_name="reply.mp3", api=False) -> str:
     if api:
